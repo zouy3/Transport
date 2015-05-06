@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="@string/email_address"
+            android:id="@+id/email_address"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:hint="distance"
+            android:layout_height="wrap_content"
+            android:id="@+id/friend_list_item_distance"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/friend_list_item_btn_send_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:buttonBarButtonStyle"
+        android:layout_weight="1"
+        android:text="@string/send_file"/>
+    <Button
+        android:id="@+id/friend_list_item_btn_delete_friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:buttonBarButtonStyle"
+        android:layout_weight="1"
+        android:text="@string/delete_friend"/>
+
+</LinearLayout>

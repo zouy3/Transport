@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.user.ohmygod.activity.Main" >
+    <item android:id="@+id/action_refresh"
+        android:title="@string/action_refresh"
+        android:orderInCategory="1"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:showAsAction="ifRoom"/>
+    <item android:id="@+id/addFriend"
+        android:title="@string/action_add_friend"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="2"
+        />
+</menu>
